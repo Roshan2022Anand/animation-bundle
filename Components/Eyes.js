@@ -3,7 +3,7 @@ import React from 'react'
 const eyes = ({ eyeMoveX, eyeMoveY }) => {
     return (
         <>
-            <div className='border-2 border-white w-40 h-40 rounded-full overflow-hidden flex justify-center items-center relative'>
+            <div className='border-2 border-blue-500 w-40 h-40 rounded-full overflow-hidden flex justify-center items-center relative'>
 
                 <div className='eyeLids'>
                     <div className='topLid' style={{

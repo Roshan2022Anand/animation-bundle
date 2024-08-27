@@ -19,8 +19,8 @@ const page = () => {
     window.addEventListener("mousemove", setMouseMovement);
     return () => {
       window.removeEventListener("mousemove", setMouseMovement)
-    }
-  })
+    } 
+  })    
   return (
     <>
       <Eyes eyeMoveX={eyeMoveX} eyeMoveY={eyeMoveY} />
